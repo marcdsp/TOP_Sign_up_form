@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Arimo:wght@400;700&display=swap');
+        </style>
+<script type="text/javascript" src="main.js" defer=""></script>        
+    <title>Document</title>
+  </head>
+  <body>
+    <div id="mainContainer" class="master">
+      <div id="leftPanel">
+        <div id="leftTopSpace"></div>
+        <div id="projectBanner">
+            <div id="logo"><img src="./media/odin-lined.png" alt="The Odin Project Logo"></div>
+        </div>
+        <div id="leftPanelFooter"><p>Image by Marc de St Pern</p></div>
+      </div>
+      <div id="rightPanel">
+        <div id="rightTopPanel">
+            <div id="rightTopText">This is not a real online service! You know you need something like this in your life to help you realize your deepest dreams. Sign up <span id="italic"> now </span> to get started
+
+                <br><br>You <span id="italic">know </span>you want to.</div>
+        </div>
+        <div id="formContainer">
+            <div id="formHead">Let's do this!</div>
+            <form action="example.com/path" method="post">
+            <div class="formBody">                
+                <div class="inputSet1">
+                    <div id="formField">
+                        <label for="first_name">First Name</label>
+                        <input type="text" id="first_name" name="first_name" tabindex="1">
+                    </div>
+                    <div id="formField">
+                        <label for="email">Email</label>
+                        <input type="email" id="email" name="email" tabindex="3">
+                    </div>
+                    <div id="formField">
+                        <label for="Password">Password</label>
+                        <input type="password" id="Password" name="Password" tabindex="5">
+                        <div id="passwordError">Passwords do not match!</div>
+                    </div>
+                </div>
+
+                <div class="inputSet2">
+                    <div id="formField">
+                        <label for="last_name">Last Name</label>
+                        <input type="text" id="last_name" name="last_name" tabindex="2">
+                    </div>
+                    <div id="formField">
+                        <label for="Phone_Number">Phone Number</label>
+                        <input type="text" id="Phone_Number" name="Phone_Number" tabindex="4">
+                    </div>
+                    <div id="formField">
+                        <label for="Confirm_Password">Confirm Password</label>
+                        <input type="password" id="Confirm_Password" name="Confirm_Password" tabindex="6">
+                        <div id="passwordError"></div>
+                    </div>       
+                </div>
+            </div>  
+          
+        
+            
+        </div>    
+        <div id="rightBottomPanel">
+            <input type="submit" value="Create Account" class="btn">
+            <div> <br>
+            <br>
+            Already have an account? <a href="login.htm"> Log in</a>
+        </div></div>
+        
+    </form>
+      </div>
+    </div>
+  </body>
+</html>
